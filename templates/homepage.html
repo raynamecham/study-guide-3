@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+Welcome to the Site
+
+<p>What is your name?</p>
+<form action="/save-name">
+  <p><input type="text"><p>
+  <input type="submit" value="Submit">
+</form>
+
+{% endblock %}
